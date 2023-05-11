@@ -52,7 +52,7 @@ def main():
         r[i] = r[i] * m[i-1]
     print("Theoretical Probaility:",sum(r))
 
-    k = 5000000
+    k = 500000
     results = simulation(k)
     print("Experimental Probability:", results/k)
 
